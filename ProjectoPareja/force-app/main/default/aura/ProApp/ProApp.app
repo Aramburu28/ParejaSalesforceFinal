@@ -1,0 +1,13 @@
+<aura:application>
+<c:Comienzo></c:Comienzo>
+<c:contador></c:contador>
+<c:contador></c:contador>
+<c:contador></c:contador>
+<c:contador></c:contador>
+<c:contador></c:contador>
+<c:contador></c:contador>
+<c:contador></c:contador>
+<c:contador></c:contador>
+<c:contador></c:contador>
+<c:contador></c:contador>
+</aura:application>	

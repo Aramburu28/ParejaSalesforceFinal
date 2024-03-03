@@ -1,0 +1,9 @@
+<aura:component controller="RandomApex">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler event="c.Jugando" action="{!c.ManejarEvento}"/>
+    <aura:attribute name="secu" type="Integer" default="0"/>
+    <aura:attribute name="activo" type="Boolean" default="False"/>
+    <aura:attribute name="perdido" type="Boolean" default="False"/>
+    <aura:attribute name="finalizado" type="Boolean" default="False"/>
+    <p aura:id="Numero" class="num" id="numero" style="font-size:20px; display: none; position:absolute; left:50 px" onclick="{!c.Parar}">{!v.secu}</p>
+</aura:component>	

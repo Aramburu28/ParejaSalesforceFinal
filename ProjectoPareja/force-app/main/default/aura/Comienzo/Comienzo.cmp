@@ -1,0 +1,7 @@
+<aura:component>
+    <aura:handler event="c.Resultado" action="{!c.ManejarEvento}"/>
+    <aura:attribute name="resu" type="String" default=""/>
+    <p>Clicka todos los números antes de que lleguen a 10</p>
+<input type="button" value="Comenzar" onclick="{!c.eventar}"/>
+{!v.resu}
+</aura:component>	
